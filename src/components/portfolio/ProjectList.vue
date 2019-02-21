@@ -8,16 +8,17 @@
     <v-layout align-center justify-space-around>
       <v-flex d-flex xs12 sm8 offset-sm-2>
         <v-layout row wrap>
-          <v-flex sm6 xs12>
+          <v-flex md6 xs12>
             <project-card
               projectName="Personal Website"
-              projectDesc="Site made to train for full-stack development (VENoM stack)"
+              projectDesc="Site made to train for full-stack development
+               (VENoM stack). Backend still under construction"
               projectTags="VueJS, Vuetify, Express, NodeJS, MongoDB"
-              projectURL="https://github.com/robsel118/personal-website"
+              projectURL="https://github.com/robsel118/personal-site"
               imageURI="website.png"
             ></project-card>
           </v-flex>
-          <v-flex xs12 sm6>
+          <v-flex xs12 md6>
             <project-card
               projectName="SpookAR"
               projectDesc="An AR game where you try to survive waves of ghosts"
@@ -26,7 +27,7 @@
               imageURI="spookar.png"
             ></project-card>
           </v-flex>
-          <v-flex xs12 sm6>
+          <v-flex xs12 md6>
             <project-card
               projectName="Escape Room VR"
               projectDesc="A VR online multiplayer VR escape room game."
@@ -34,7 +35,7 @@
               imageURI="vr-hackathon.jpg"
             ></project-card>
           </v-flex>
-          <v-flex xs12 sm6>
+          <v-flex xs12 md6>
             <project-card
               projectName="Musticly"
               projectDesc="A 2D platformer centered around sounds and colours"
@@ -43,7 +44,7 @@
               imageURI="musticly.png"
             ></project-card>
           </v-flex>
-          <v-flex xs12 sm6>
+          <v-flex xs12 md6>
             <project-card
               projectName="Arkathon project"
               projectDesc="VR simulation of a medical intervention in a hazardous environment"

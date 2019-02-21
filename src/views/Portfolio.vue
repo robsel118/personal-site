@@ -5,7 +5,7 @@
     ></parallax-item>
     <about-me></about-me>
     <v-divider></v-divider>
-    <experience-item></experience-item>
+    <experience-list></experience-list>
     <v-divider></v-divider>
     <v-container fluid class="alternate">
       <project-list></project-list>
@@ -17,7 +17,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import ParallaxItem from '@/components/portfolio/ParallaxItem.vue';
-import ExperienceItem from '@/components/portfolio/ExperienceItem.vue';
+import ExperienceList from '@/components/portfolio/ExperienceList.vue';
 import ProjectList from '@/components/portfolio/ProjectList.vue';
 import AboutMe from '@/components/portfolio/AboutMe.vue';
 import ContactForm from '@/components/portfolio/ContactForm.vue';
@@ -25,7 +25,7 @@ import ContactForm from '@/components/portfolio/ContactForm.vue';
 @Component({
   components: {
     ParallaxItem,
-    ExperienceItem,
+    ExperienceList,
     ProjectList,
     AboutMe,
     ContactForm,

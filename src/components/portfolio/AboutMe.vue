@@ -1,8 +1,8 @@
 <template>
   <v-container fluid class="alternate">
     <title-card title="Profile" subTitle="I am a developer"></title-card>
-    <v-layout row wrap>
-      <v-flex xs12 offset-sm2 sm3 class="text-section left-section">
+    <v-layout row wrap  justify-center fill-height>
+      <v-flex xs12 md3 class="text-section left-section">
         <h5 class="headline green--text darken-2 font-weight-light mb-3">About me</h5>
         <v-flex tag="p" pr-3 class="body-1">
           Born in Canada, raised in Switzerland, currently living in Finland.
@@ -11,12 +11,12 @@
           and I am an Virtual Reality enthusiast.
         </v-flex>
       </v-flex>
-      <v-flex xs12 sm2>
+      <v-flex xs12 md2>
         <v-avatar :size="200" color="grey lighten-4">
           <img :src="require('@/assets/profile.jpg')" alt="avatar">
         </v-avatar>
       </v-flex>
-      <v-flex xs12 sm2 class="text-section right-section">
+      <v-flex xs12 md3 class="text-section right-section">
         <h5 class="headline green--text darken-2 font-weight-light mb-3">Details</h5>
         <p class="body-1 font-weight-black">Name:</p>
         <p class="body-1">Robert Lee Seligmann</p>
@@ -43,7 +43,7 @@ export default class AboutMe extends Vue {}
 <style lang="sass" scoped>
 .text-section
   text-align: left
-  @media screen and (max-width: 412px)
+  @media screen and (max-width: 768px)
     text-align: center
   & .body-1
     margin-bottom: .5rem
@@ -51,13 +51,13 @@ export default class AboutMe extends Vue {}
 
 .left-section
   margin-bottom: 2rem
-  @media screen and (min-width: 412px)
-    padding-right: 1.5rem
+  @media screen and (min-width:  768px)
+    padding-right: 1rem
     margin-bottom: 0
 
 .right-section
   margin-top: 2rem
-  @media screen and (min-width: 412px)
+  @media screen and (min-width:  768px)
     padding-left: 2.5rem
     margin-top: 0
 

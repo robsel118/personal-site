@@ -110,7 +110,7 @@ import experiences from '@/data/experiences';
     TitleCard,
   },
 })
-export default class ExperienceItem extends Vue {
+export default class ExperienceList extends Vue {
   experiences: object = experiences;
 }
 </script>
