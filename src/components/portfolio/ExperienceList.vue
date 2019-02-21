@@ -56,7 +56,7 @@
           </v-timeline-item>
           <v-timeline-item
             v-for="(career, index) in experiences.careers"
-            :key="index"
+            :key="experiences.educations.length + index"
             color="red"
             icon="work"
             small
