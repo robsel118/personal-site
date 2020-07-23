@@ -24,8 +24,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - run: yarn install --prod --pure-lockfile
       - run: yarn global add @vue/cli @vue/cli-service-global
+      - run: yarn install 
 
       # This triggers `gatsby build` script in "package.json"
       - run: yarn build
